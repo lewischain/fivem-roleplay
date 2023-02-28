@@ -1,10 +1,10 @@
 {
-  "token": "token", 
-  "sunucid": "dev_id",
+  "token": "MTA1MTg4MjgzMjIyNzc0MTczNg.GQVZXx.qwfnRQhF0ban_uLY1zpwhFgot-o8p7OChw8pd8", 
+  "sunucid": "1070769526330900550",
   "developer": "622350390871982080",
   "server": {
-    "ip": "194.156.90.132",
-    "port": "32952"
+    "ip": "212.87.213.53",
+    "port": "samp_port or 7777"
   },
   "guild": {
     "jail": "1079476409967313017"
