@@ -1,0 +1,19 @@
+{
+  "token": "bot_token", 
+  "sunucid": "server_id",
+  "developer": "your_id",
+  "server": {
+    "ip": "samp_ip",
+    "port": "samp_port or 7777"
+  },
+  "guild": {
+    "jail": "jail_id"
+  },
+  "logs": {
+    "ban": "ban_id",
+    "basvuru": "basvuru_id"
+  },
+  "log": "log_id",
+  "color": "#000",
+  "duration": 5000 
+}
