@@ -1,19 +1,19 @@
 {
-  "token": "MTA1MTg4MjgzMjIyNzc0MTczNg.GQVZXx.qwfnRQhF0ban_uLY1zpwhFgot-o8p7OChw8pd8", 
-  "sunucid": "1070769526330900550",
-  "developer": "622350390871982080",
+  "token": "token", 
+  "sunucid": "sunucu_id",
+  "developer": "dev_id",
   "server": {
-    "ip": "212.87.213.53",
-    "port": "samp_port or 7777"
+    "ip": "ip",
+    "port": "fivem_port or 7777"
   },
   "guild": {
-    "jail": "1079476409967313017"
+    "jail": "channel_id"
   },
   "logs": {
-    "ban": "1079476409967313017",
-    "basvuru": "1079476409967313017"
+    "ban": "channel_id",
+    "basvuru": "channel_id"
   },
-  "log": "1079476409967313017",
+  "log": "channel_id",
   "color": "#000",
   "duration": 5000 
 }
