@@ -3,12 +3,12 @@ const gamedig = require("gamedig");
 
 module.exports = {
   name: "sunucu",
-  description: "SAMP sunucunuzun genel bilgilerini sizlere gösterir.",
+  description: "Fivem sunucunuzun genel bilgilerini sizlere gösterir.",
   options: [
     {
       type: 1,
       name: "bilgi",
-      description: "SAMP sunucunuzun genel bilgilerini sizlere gösterir."
+      description: "Fivem sunucunuzun genel bilgilerini sizlere gösterir."
     }
   ],
   
@@ -19,10 +19,12 @@ module.exports = {
     const server = config.server;
     
     const samp = await gamedig.query({
-      type: "samp",
+      type: "fivem",
       host: server.ip || "94.23.68.73",
       port: server.port || "22003",
     });
+    
+    console.log(samp)
     
     const embed = new EmbedBuilder()
     .setColor(config.color || 0x2F3136)
@@ -30,12 +32,12 @@ module.exports = {
     .addFields([
       {
         name: "Harita:",
-        value: "```"+samp.raw.rules.mapname+"```",
+        value: "```"+samp.raw.mapname+"```",
         inline: true
       },
       {
         name: "Oyun versiyon:",
-        value: "```"+samp.raw.rules.version+"```",
+        value: "```"+samp.raw.protocol+"```",
         inline: true
       },
       {
@@ -45,7 +47,7 @@ module.exports = {
       },
       {
         name: "Oyuncular:",
-        value: "```"+samp.raw.numplayers+"/"+samp.maxplayers+"```",
+        value: "```"+samp.raw.clients+"/"+samp.raw.sv_maxclients+"```",
         inline: true
       },
       {

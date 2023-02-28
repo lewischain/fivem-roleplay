@@ -21,7 +21,7 @@ const c = commands.map(map => `**/${map.split("|")[0]}:** \`${map.split("|")[1]}
 
   const embed = new EmbedBuilder()
       .setColor(config.color || 0x2F3136)
-      .setAuthor({ name: `Bir kullanıcı inceleniyor.`, iconURL: `${guild.iconURL()} ` })
+      .setAuthor({ name: `Bir komut inceleniyor.`, iconURL: `${guild.iconURL()} ` })
       .setDescription(c)
       .setTimestamp()
       .setFooter({ text: `${user.tag} tarafından inceleniyor.`, iconURL: `${user.displayAvatarURL()} ` })

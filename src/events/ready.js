@@ -12,13 +12,13 @@ module.exports = {
   
     setInterval(async function playersUpdate() {
       const samp = await gamedig.query({
-        type: "samp",
+        type: "fivem",
         host: server.ip || "94.23.68.73",
         port: server.port || "22003",
       });
       
 
-      client.user.setPresence({ activities: [{ name: `Oyuncular: ${samp.raw.numplayers}/${samp.maxplayers}` }], status: 'idle' });
+      client.user.setPresence({ activities: [{ name: `Oyuncular: ${samp.raw.clients}/${samp.maxplayers}` }], status: 'idle' });
     }, config.duration)
   }
 }

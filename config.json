@@ -1,19 +1,19 @@
 {
-  "token": "bot_token", 
-  "sunucid": "server_id",
-  "developer": "your_id",
+  "token": "token", 
+  "sunucid": "dev_id",
+  "developer": "622350390871982080",
   "server": {
-    "ip": "samp_ip",
-    "port": "samp_port or 7777"
+    "ip": "194.156.90.132",
+    "port": "32952"
   },
   "guild": {
-    "jail": "jail_id"
+    "jail": "1079476409967313017"
   },
   "logs": {
-    "ban": "ban_id",
-    "basvuru": "basvuru_id"
+    "ban": "1079476409967313017",
+    "basvuru": "1079476409967313017"
   },
-  "log": "log_id",
+  "log": "1079476409967313017",
   "color": "#000",
   "duration": 5000 
 }
